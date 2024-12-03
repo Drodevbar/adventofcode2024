@@ -1,0 +1,28 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "airbnb-base",
+    "airbnb-typescript/base",
+    "plugin:prettier/recommended",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "ignorePatterns": [
+    "node_modules/"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "no-console": "off",
+    "no-plusplus": "off",
+    "import/prefer-default-export": "off",
+    "semi": "off",
+    "prettier/prettier": "error"
+  }
+}
